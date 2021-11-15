@@ -1,0 +1,62 @@
+﻿.Page-Header {
+    width: 291px;
+}
+
+.container-login100 {
+    min-height: 185vh;
+}
+
+.dd {
+    border: none;
+    color: #999999;
+}
+
+.textarea {
+    height: auto;
+}
+
+input[type=date]:required:invalid {
+    color: transparent;
+}
+
+input[type=date]:focus {
+    color: black !important;
+}
+
+/*
+    file style
+*/
+.custom-file-input {
+    color: transparent;
+    margin-bottom: 10px;
+    transform: translateX(120px);
+}
+
+    .custom-file-input::-webkit-file-upload-button {
+        visibility: hidden;
+    }
+
+    .custom-file-input::before {
+        content: 'Upload Book Image';
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #999;
+        border-radius: 3px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: #34c663;
+        /*width:300px;*/
+    }
+
+    .custom-file-input:hover::before {
+        border-color: black;
+    }
+
+    .custom-file-input:active {
+        outline: 0;
+    }

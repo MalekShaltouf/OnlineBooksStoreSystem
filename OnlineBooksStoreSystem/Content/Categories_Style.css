@@ -1,0 +1,56 @@
+﻿.table-title {
+    /*background-color: #BA9BA0;*/
+    /*background-color:#C7781C;
+    background-color:#CE5310;*/
+    background-color:#A60101;
+    background-color:#FFF;
+    width: 1170px;
+    transform: translate(98px,106px);
+    /*border-radius:10px;*/
+    padding: 20px;
+    overflow:hidden;
+}
+.table-title div {
+    float:left;
+    width:50%;
+}
+.table-title div:last-of-type{
+    text-align:right;
+}
+.table-title h3 {
+    font-size: 28px;
+    width:50%;
+    color:#A60101;
+    font-weight:bold;
+    font-family:'Fredericka the Great', cursive
+}
+table {
+    border-radius: 0;
+    border: none;
+}
+table th{
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif
+}
+table th, td {
+    border: none;
+    font-size:20px;
+}
+.Empty-Data {
+    width: 675px;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(120px);
+    border-radius: 100px;
+    box-shadow: 1px 2px 37px 5px rgba(163,163,163,1);
+    padding: 103px 20px;
+    background: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 99%, rgba(174,182,184,1) 100%, rgba(0,212,255,1) 100%);
+}
+.Empty-Data h3{
+    color:#A60101;
+    font-size:35px;
+    font-weight:bolder;
+}
+#ContentPlaceHolder1_HyperLink2AddCategory {
+    margin-top:24px;
+}

@@ -1,0 +1,16 @@
+﻿input[type=date]:required:invalid {
+    color: transparent;
+}
+
+input[type=date]:focus {
+    color: black !important;
+}
+
+.dd {
+    border: none;
+    color: #999999;
+}
+
+.login100-form-title {
+    margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+﻿.DC-Child {
+    /*background-color:red;*/
+    width:643px;
+    min-height:300px;
+    text-align:center;
+    margin:0 auto;
+    transform:translateY(85px);
+    border-radius:10px;
+    box-shadow: 1px 2px 37px 5px rgba(163,163,163,1);
+    padding:103px 20px ;
+    background: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 99%, rgba(174,182,184,1) 100%, rgba(0,212,255,1) 100%);
+}
+.DC-Child div:first-of-type{
+    margin-bottom:20px;
+}
+.Col-Name {
+    font-weight:bolder;
+    font-size:20px;
+}
+.Col-Value {
+    font-size:18px;
+}
+.Delete-Btn {
+    width:100px;
+    padding:8px;
+    margin-bottom:10px;
+}
+.txt2 {
+    display:block;
+    margin-bottom:-11px;
+}

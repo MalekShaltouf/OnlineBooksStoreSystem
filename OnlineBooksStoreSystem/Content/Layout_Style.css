@@ -1,0 +1,17 @@
+﻿* {
+    margin: 0;
+}
+.Parent {
+    min-height: 529px;
+    margin-top: 78px;
+}
+
+#ContentPlaceHolder1_Status {
+    font-size: 20px;
+}
+#UserNameSpan {
+    margin-top:5px;
+}
+.Labels{
+    text-align:center;
+}

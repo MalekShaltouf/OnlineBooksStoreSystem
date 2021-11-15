@@ -1,0 +1,21 @@
+﻿.Page-Header {
+    transform: translate(60px,30px);
+    width: 386px;
+    border-bottom: 3px solid #0fdb51;
+    padding-bottom: 9px;
+}
+
+.Page-Header h1 {
+    font-size: 63px;
+    color: #A60101;
+}
+
+.limiter {
+    margin: -50px auto;
+}
+
+.txt2 {
+    display: block;
+    margin-bottom:5px;
+}
+

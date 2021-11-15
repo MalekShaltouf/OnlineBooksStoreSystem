@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout2.Master.cs" Inherits="OnlineBooksStoreSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Content/bootstrap.css" type="text/css" rel="stylesheet" media="all" />
+    <!-- shop css -->
+    <link href="~/Content/shop.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="~/Content/style.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="~/Content/Layout_Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- font-awesome icons -->
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="Home">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="main-nav">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Chronicle</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1>
+                            <asp:HyperLink runat="server" NavigateUrl="~/Pages/Home/Home.aspx" CssClass="navbar-brand">Chronicle</asp:HyperLink>
+                        </h1>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse nav-right">
+                        <ul class="nav navbar-nav navbar-left cl-effect-15">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class="hidden">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Pages/Home/Home.aspx">Home</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="profileLink" Visible="false" runat="server" NavigateUrl="~/Pages/User/Profile.aspx">Profile</asp:HyperLink>
+                            </li>
+                            <%--<li class="dropdown">
+                                <a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Admin
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="shop.html">product catalog</a>
+                                    </li>
+                                    <li>
+                                        <a href="single_product.html">single product</a>
+                                    </li>
+                                    <li>
+                                        <a href="checkout.html">checkout</a>
+                                    </li>
+									<li>
+                                        <a href="payment.html">Payment</a>
+                                    </li>
+                                </ul>
+                            </li>--%>
+                            <li>
+                                <asp:HyperLink ID="Admin" Visible="false" runat="server" NavigateUrl="~/Pages/Admin/Categories/Categories.aspx">Admin</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="~/Pages/Books/Books.aspx">Books</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:Label runat="server" ID="UserNameSpan" Visible="false" ForeColor="#a60101" Font-Bold="true" Font-Size="24px"></asp:Label>
+                            </li>
+                            <li>
+                                <asp:HyperLink runat="server" ID="Login" NavigateUrl="~/Pages/Login/Login.aspx">Login</asp:HyperLink>
+                                <asp:HyperLink Visible="false" runat="server" ID="Logout" NavigateUrl="~/Pages/Login/Logout.aspx">Logout</asp:HyperLink>
+                            </li>
+                        </ul>
+                        <!-- search-bar -->
+                        <%--     <div class="search-bar-agileits">
+                            <div class="cd-main-header">
+                                <ul class="cd-header-buttons">
+                                    <li>
+                                        <a class="cd-search-trigger" href="#cd-search">
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- cd-header-buttons -->
+                            </div>
+                            <div id="cd-search" class="cd-search">
+                                <form action="#" method="post">
+                                    <input name="Search" type="search" placeholder="Type and Hit Enter...">
+                                </form>
+                            </div>
+                        </div>
+                        <!-- //search-bar ends here -->--%>
+                        <!-- shopping cart -->
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <div class="clearfix"></div>
+                </div>
+                <!-- /.container -->
+            </div>
+        </nav>
+        <div>
+            <div class="Parent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <div>Body</div>
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="cpy-right">
+            <p>
+                © 2018 Chronicle. All rights reserved | Design by
+                <a href="#">Malek</a>
+            </p>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="Scripts" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

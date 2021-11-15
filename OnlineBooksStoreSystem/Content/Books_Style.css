@@ -1,0 +1,36 @@
+﻿.imgstyle {
+    margin: 10px 0;
+}
+
+table th, td {
+    border: none;
+}
+
+.table-title {
+    background-color: red;
+    transform: translateY(99px);
+    width: 92%;
+}
+
+    .table-title div {
+        float: right;
+    }
+
+.Empty-Data {
+    width: 675px;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(120px);
+    border-radius: 100px;
+    box-shadow: 1px 2px 37px 5px rgba(163,163,163,1);
+    padding: 103px 20px;
+    background: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 99%, rgba(174,182,184,1) 100%, rgba(0,212,255,1) 100%);
+}
+.Empty-Data h3{
+    color:#A60101;
+    font-size:35px;
+    font-weight:bolder;
+}
+#ContentPlaceHolder1_HyperLink2AddBook {
+    margin-top:24px;
+}

@@ -1,0 +1,19 @@
+﻿.Page-Header {
+    width: 275px;
+}
+
+.container-login100 {
+    min-height: 185vh;
+}
+
+.dd {
+    border: none;
+    color: #999999;
+}
+input[type=date]:required:invalid {
+    color: transparent;
+}
+
+input[type=date]:focus {
+    color: black !important;
+}

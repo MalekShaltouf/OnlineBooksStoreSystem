@@ -1,0 +1,13 @@
+1-when reload page after succesful registration will repeat insertion operation => so must be prevent occuerd this.
+2- add label when Succsful Regestraion or Faild Registration.
+3- complete check if username or email that user enter in SignUp Page is Unique or not
+4- when user succesful registration must be display for him/her label that explain that regestration is succeful or redirect user to web site as a user with the 
+   account that regesiter with and in this way must be prevent user can access to SignUp Page by the logout sign up then can the user to access to SignUp Page.
+5-Enable QuantityInStore in Books Table.
+6-Enable Validation on Input in Add Pages,Edit Pages,...
+8- when delete admin and no exists any admin in Database must be create panel that make user to add admin becuse if don't
+  so will return big error when open project. 
+10- when user login must be redirect to page dispaly just all categoryName Which eacht categoryName is link
+    so when click on categoryName(link) will go to page that will display all Books that followed this category.
+
+

@@ -1,0 +1,12 @@
+﻿.Parent {
+    margin-top:0;
+}
+.bbody {
+    background-image:url('../Images/banner.jpg');
+    background-size:1349px 994px;
+    width:1349px;
+    height:994px;
+}
+.banner-text {
+    transform:translateY(-9px);
+}
